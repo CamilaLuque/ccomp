@@ -73,7 +73,7 @@ int main()
             cout << y << " es el numero mayor" << endl;
             if (x < z) {
                 cout << x << " es el numero menor" << endl;
-            }
+            } 
             else {
                 cout << z << " es el numero menor" << endl;
             }
