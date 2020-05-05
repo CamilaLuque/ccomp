@@ -25,7 +25,7 @@ int main()
 	}*/
 
 
-	//4.27 Indicar si un numero de cinco digitos es palindromo LISTO
+	//4.27 Indicar si un numero de cinco digitos es palindromo //LISTO
 	/*int x, num, aux1;
 	int aux = 0;
 	int b = 10;
@@ -66,7 +66,7 @@ int main()
 
 
 
-	//4.30 Fibonacci
+	//4.30 Fibonacci //LISTO
 	/*double fib = 0;
 	double x = 1;
 	double y;
