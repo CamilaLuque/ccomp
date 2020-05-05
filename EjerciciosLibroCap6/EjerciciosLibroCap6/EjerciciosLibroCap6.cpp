@@ -7,6 +7,9 @@ int calcularCargo(int horas) {
 	while (horas <= 3) {
 		cargo = 20;
 	}
+	if (horas < 3) {
+
+	}
 }
 int potencia(int base, int exponente) {
 	int resultado = 1;
@@ -15,6 +18,7 @@ int potencia(int base, int exponente) {
 	}
 	return resultado;
 }
+
 int factor(int primero, int segundo) {
 	if (primero % segundo) {
 		return false;
@@ -23,6 +27,7 @@ int factor(int primero, int segundo) {
 		return true;
 	}
 }
+
 /*int esPrimo(int num) {
 	int x = num / 2;
 	for (int i = 2; i < x; i++) {
@@ -31,12 +36,18 @@ int factor(int primero, int segundo) {
 		}
 	}
 }*/
+
 int revertir(int x) {
+	int resultado;
+	int aux = 0;
+	int base = 10;
 	for (; x > 0; x /= 10) {
-		int y = x % 10;
-		cout << y;
+		resultado = (aux * base) + (x % 10);
+		aux = resultado;
 	}
+	return resultado;
 }
+
 int potenciaRecursiva(int base, int exponente) {
 	if (exponente != 0) {
 		return base * potenciaRecursiva(base, exponente - 1);
@@ -45,6 +56,19 @@ int potenciaRecursiva(int base, int exponente) {
 		return 1;
 	}
 }
+
+int fibonacci(int x) {
+	double resultado = 0;
+	double z = 1;
+	double y;
+	while (resultado < x) {
+		y = resultado;
+		resultado = resultado + z;
+		z = y;
+		cout << resultado << endl;
+	}
+}
+
 int mcd(int x, int y) {
 	if (x > y) {
 		if (y == 0) {
@@ -58,6 +82,7 @@ int mcd(int x, int y) {
 		return 0;
 	}
 }
+
 using namespace std;
 int main()
 {
@@ -72,7 +97,8 @@ int main()
 	revertir(1234);
 	//6.36 Funcion recursiva de potencia //LISTO
 	cout << potenciaRecursiva(2, 5);
-	//6.37 Fibonacci iterativo
+	//6.37 Fibonacci iterativo //LISTO
+	fibonacci(5);
 	//6.39 Torres de Hannoi
 	//6.41 Maximo Comun Divisor recursivo //LISTO
 	cout << mcd(2310, 98);

@@ -8,15 +8,17 @@ using namespace std;
 
 int main()
 {
-	//4.26 Imprimir un cuadrado hueco de asteriscos, el usuario debe indicar el tamaño del lado
+	//4.26 Imprimir un cuadrado hueco de asteriscos, el usuario debe indicar el tamaño del lado //LISTO
 	/*int x;
-	cout << "Ingrese el tamaño: ";
+	cout << "Ingrese el tamanio del cuadrado, este sera hueco: ";
 	cin >> x;
 	for (int i = 0; i < x; i++) {
-		for (int i = 0; i < x; i++) {
-			cout << "*" ;
-			if (i != 0 || (i != (x - 1))) {
-				cout << "*" << setw(x - 2) << "*" ;
+		for (int j = 0; j < x; j++) {
+			if (j==0||j==(x-1)||i==0||i==(x-1)){
+				cout<<"*";
+			}
+			else{
+				cout<<" ";
 			}
 		}
 		cout << endl;
@@ -45,7 +47,7 @@ int main()
 
 
 	//4.28 Convertir un binario a decimal
-	int binario;
+	/*int binario;
 	cout << "Ingrese un numero binario: ";
 	cin >> binario;
 	int resultado = 1;
@@ -60,11 +62,20 @@ int main()
 			binario = binario / 10;
 		}
 	}
-	cout << suma;
+	cout << suma;*/
 
 
 
 	//4.30 Fibonacci
+	/*double fib = 0;
+	double x = 1;
+	double y;
+	while (1) {
+		y = fib;
+		fib = fib + x;
+		x = y;
+		cout << fib << endl;
+	}*/
 
 
 }
