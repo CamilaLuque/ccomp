@@ -7,8 +7,11 @@ int calcularCargo(int horas) {
 	while (horas <= 3) {
 		cargo = 20;
 	}
+	if (horas == 24) {
+		cargo = 50;
+	}
 	if (horas < 3) {
-
+		int extra
 	}
 }
 int potencia(int base, int exponente) {

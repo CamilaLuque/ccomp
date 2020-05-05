@@ -24,16 +24,72 @@ int main()
 	cout << "El numero menor es: " << menor;*/
 
 
-	//5.15 Triangulos
-	/*int asterisco = 1;
-	for (int i = 0; i < 10; i++) {
-		for (int j = 0; j < asterisco; j++) {
+	//5.15 Triangulos //LISTO
+	/*int tam = 10;
+	int asterisco1 = 1;
+	int asterisco2 = 10;
+	int asterisco3 = 10;
+	int asterisco4 = 1;
+	int espb = 0;
+	int espc = 0;
+	int espd = tam - 1;
+	//a
+	for (int i = 0; i < tam; i++) {
+		for (int j = 0; j < asterisco1; j++) {
 			cout << "*";
 		}
 		cout << endl;
-		asterisco += 1;
+		asterisco1++;
 	}
-	*/
+
+	cout << endl;
+
+	//b
+	for (int i = 0; i < tam; i++) {
+		for (int j = 0; j < asterisco2; j++) {
+			cout << "*";
+		}
+		for (int k = 0; k <= espb; k++) {
+			cout << " ";
+		}
+		asterisco2--;
+		espb++;
+		cout << endl;
+
+	}
+
+	cout << endl;
+
+	//c
+	for (int i = 0; i < tam; i++) {
+		for (int j = 0; j < asterisco3; j++) {
+			cout << "*";
+		}
+		asterisco3--;
+		cout << endl;
+		for (int k = 0; k <= espc; k++) {
+			cout << " ";
+		}
+		espc++;
+	}
+
+	cout << endl;
+
+	//d
+	for (int i = 0; i < tam; i++) {
+		for (int j = 0; j < espd; j++) {
+			cout << " ";
+		}
+		for (int k = 0; k < asterisco4; k++) {
+			cout << "*";
+		}
+		asterisco4++;
+		espd--;
+		cout << endl;
+
+	}*/
+
+	
 	// 5.19 Imprimir el valor de pi //LISTO
 	/*double pi(0.0);
 	int x = 0;
