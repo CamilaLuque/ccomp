@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1591795795 source:d:\c++\integerarrayccomp\main.cpp
+	<iostream>
+	"IntegerArray.h"
+
+1591795837 d:\c++\integerarrayccomp\include\integerarray.h
+	<iostream>
+
