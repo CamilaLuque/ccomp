@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1594175728 source:d:\c++\ejercicio 10.8\main.cpp
+	<iostream>
+	"MotorVehicle.h"
+	<string>
+
+1594175657 d:\c++\ejercicio 10.8\include\motorvehicle.h
+	<iostream>
+	<string>
+
+1594175803 source:d:\c++\ejercicio 10.8\src\motorvehicle.cpp
+	"MotorVehicle.h"
+	<iostream>
+	<string>
+
