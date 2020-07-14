@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1594728362 source:d:\c++\ejercicio 12.14\main.cpp
+	<iostream>
+	<vector>
+	"Empleado.h"
+	"PieceWorker.h"
+	"HourlyWorker.h"
+
+1594728138 d:\c++\ejercicio 12.14\include\empleado.h
+	<iostream>
+	<sstream>
+	<string>
+
+1594728402 d:\c++\ejercicio 12.14\include\pieceworker.h
+	"Empleado.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1594728402 d:\c++\ejercicio 12.14\include\hourlyworker.h
+	"Empleado.h"
+	<iostream>
+	<sstream>
+	<string>
+

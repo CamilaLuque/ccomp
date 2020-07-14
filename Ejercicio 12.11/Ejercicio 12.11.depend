@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1594721047 source:d:\c++\ejercicio 12.11\src\employee.cpp
+	<sstream>
+	"Employee.h"
+
+1594721187 d:\c++\ejercicio 12.11\include\employee.h
+	<string>
+
+1594720479 source:d:\c++\ejercicio 12.11\src\basepluscommissionemployee.cpp
+	<iomanip>
+	<stdexcept>
+	<sstream>
+	"BasePlusCommissionEmployee.h"
+
+1594720479 d:\c++\ejercicio 12.11\include\basepluscommissionemployee.h
+	<string>
+	"CommissionEmployee.h"
+
+1594721215 d:\c++\ejercicio 12.11\include\commissionemployee.h
+	<string>
+	"Employee.h"
+
