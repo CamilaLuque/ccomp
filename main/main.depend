@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1594780829 source:d:\c++\main\main.cpp
+	<iostream>
+	<allegro.h>
+	"MapaAQP.h"
+
+1594780987 source:d:\c++\main\src\mapaaqp.cpp
+	"MapaAQP.h"
+	<allegro.h>
+
+1594780829 d:\c++\main\include\mapaaqp.h
+
